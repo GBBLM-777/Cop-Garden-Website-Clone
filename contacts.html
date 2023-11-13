@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            @COP GARDEN
+        </title>
+
+        <style type="text/css">
+            body, html {
+                font-family: Tahoma;
+                color: white;
+                -webkit-text-stroke-width: 1px;
+			    -webkit-text-stroke-color: green;
+                height: 100%;
+                background-image: url("bg1.jpg");
+                height: 110%;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: antiquewhite;
+                position: outside;
+                top: 0;
+                width: 100%;
+            }
+
+            li {
+                float: right;
+            }
+            
+            li a {
+                display: block;
+                color: rgb(40, 28, 12);
+                text-align: center;
+                padding: 15px 18px;
+                text-decoration: none;
+            }
+    
+            li a:hover:not(.active) {
+                background-color: rgba(152, 50, 50, 0.512);
+                background-color: rgba(210,142, 102, 0.4);
+            }
+
+            div.a {
+                text-indent: 50px;
+                margin-right: 75px;
+            }
+
+            img {
+                border: 5px solid #E1AD01;
+            }
+
+            h3 {
+                text-align: center;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            h4 {
+                text-align: left;
+                margin-left: 30px;
+                font-size: 15px;
+                font-weight: bold;
+                color: white;
+                -webkit-text-stroke-width: 1px;
+			    -webkit-text-stroke-color: green;
+            }
+
+            .active {
+                background-color: rgba(210,142, 102, 0.4);
+            }
+
+
+            h1 {
+                display: block;
+                font-size: 50px;
+                margin-top: 0.67em;
+                margin-bottom: 0.67em;
+                margin-left: 0;
+                margin-right: 0;
+                font-weight: bold;
+            }
+
+
+            input[type=text], select, textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            }
+
+            input[type=submit] {
+            background-color: antiquewhite;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+            background-color: white;
+            }
+
+            input[type=reset] {
+            background-color: antiquewhite;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=reset]:hover {
+            background-color: white;
+            }
+
+            input[type=reset] {
+            background-color: antiquewhite;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=reset]:hover {
+            background-color: white;
+            }
+
+            fieldset {
+                font-size: 30px;
+                color: white;
+                -webkit-text-stroke-width: 1px;
+			    -webkit-text-stroke-color: green;
+                background-color: antiquewhite;  
+                font-weight: bold; 
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=7.0">
+    </head>
+
+    <body>
+        <section>
+            <ul>
+                <li><a class="active" href="contacts.html">CONTACT US</a></li>
+                <li><a href="testimonials.html">TESTIMONIALS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="product.html">PRODUCTS & SERVICES</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </section>
+              
+        <hr> 
+        <header align="center">
+            <h1>COP GARDEN</h1>
+            <h3>BUY • SELL • TRADE • CONSIGN</h3>
+        </header>
+        <hr>
+
+    <br>
+        
+        <form method="post" action="mailto:gabrielbombom6996@gmail.com" autocomplete="on">
+            <fieldset><legend align="left">Personal Information</legend>
+                Date: <input type="date" name="date">
+    <br>
+                First Name: <input type="text" name="first" size="15"  maxlength="20">
+                &nbsp;&nbsp;&nbsp;
+
+                Middle Name: <input type="text" name="middle" size="15"  maxlength="20">
+                &nbsp;&nbsp;&nbsp;
+
+                Last Name: <input type="text" name="last" size="15"  maxlength="20">
+                &nbsp;&nbsp;&nbsp;
+                
+                Age: <input type="text" name="age" size="2"  maxlength="3">
+                &nbsp;&nbsp;&nbsp;
+    <br>
+                Sex: <input type="radio" name="gender" value="lalake">Male
+                    <input type="radio" name="gender" value="babae">Female
+
+    <br>
+
+                Country: <input type="text" name="nationality" id="nationality" size="15"  maxlength="20">
+                &nbsp;&nbsp;&nbsp;	
+
+                Birthday:
+                <select name="membership" id="membership" value="Month">
+                    <option value="Jan">January</option>
+                    <option value="Feb">February</option>
+                    <option value="Mar">March</option>
+                    <option value="Apr">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="Aug">August</option>
+                    <option value="Sept">September</option>
+                    <option value="Oct">October</option>
+                    <option value="Nov">November</option>
+                    <option value="Dec">December</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;	
+
+                <input type=text name="day" placeholder="Day" size="5"  maxlength="15">
+                &nbsp;&nbsp;&nbsp;	
+                
+                <input type=text name="year" placeholder="Year" size="5"  maxlength="15">
+                &nbsp;&nbsp;&nbsp;	
+    
+    <br>
+
+                Question/Inquiry:
+                <textarea rows="5" cols="187" id="suggest"></textarea>
+            </fieldset>
+            
+    <br><br>
+            
+            <fieldset><legend align="left">Contact Information</legend>
+                Home Address: <input type="text" name="address" id="address" size="15"  maxlength="20">
+                &nbsp;&nbsp;&nbsp;
+
+                Email: <input type="email" name="email" id="email" size="15" maxlength="20">
+                &nbsp;&nbsp;&nbsp;
+
+                Phone Number: <input type="text" name="phone" id="phone" size="15"  maxlength="20">
+                &nbsp;&nbsp;&nbsp;
+
+                Telephone Number: <input type="text" name="phone" id="phone" size="15"  maxlength="20">
+            </fieldset>
+            
+    <br><br>
+                
+            <fieldset><legend align="left">Comments and Suggestions</legend>
+                <textarea rows="10" cols="187" id="suggest"></textarea>
+            </fieldset>
+    
+    <br><br>
+            
+            <input type="Submit" value="Submit">
+            <input type="Reset" value="Reset">
+        </form>
+    </body>
+
+    <br>
+
+        <center>
+            <h1 class="h3">[STORE LOCATION]</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15447.262443159616!2d121.0160223!3d14.5525346!3m2
+            !1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c92ae09af62d%3A0x844bfae4e982513b!2sCop%20Garden!5e0!3m2!1sen!2sph!4v169839366
+            9845!5m2!1sen!2sph" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>    
+    
+    <br><br>
+
+            <h1 class="h3">[SOCIAL MEDIA PAGE]</h1>
+            <img src = "page.jpg" width="450px" height="200px" usemap = "#layout">
+            <map name ="layout">
+                <area shape=rect coords="10,20,200,190" href="https://www.instagram.com/copgardenph/#" alt = "Instagram">
+                <area shape=rect coords="265,20,450,190" href="https://www.facebook.com/pages/Cop%20Garden/301744957280007/" alt = "Facebook">
+            </map>
+        </center>
+
+    <br><br>
+
+        <hr> 
+        <h4>WEB DEVELOPER • MANGONON, GABRIEL BOM-BOM L.</h4>
+
+    <br>
+
+</html>
